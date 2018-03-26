@@ -1,3 +1,6 @@
+//Added Blob Version for making Web-Workers work -> Normally you would add that into another file
+//But i was lazy and i did not want to set up a server nor mess around with CORS-Stuff
+
 function run(fn) {
     return new Worker(URL.createObjectURL(new Blob(['('+fn+')()'])));
 }
