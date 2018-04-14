@@ -18,3 +18,11 @@ main {
     bottom: 10%;
     left: 45%;
   }
+
+.collection-item {
+    color: black !important;
+}
+
+#svg-stuff{
+    z-index: 9999;
+}

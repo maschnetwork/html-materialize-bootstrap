@@ -26,7 +26,7 @@ function printCryptoObjects(){
 
 function getCryptoCurrenciesAjax(){
   $.ajax({
-      url: "https://api.coinmarketcap.com/v1/ticker/?limit=10",
+      url: "https://api.coinmarketcap.com/v1/ticker/?limit=2",
       success: (data) => {
          fillCryptoObjects(data);
          printCryptoObjects();
