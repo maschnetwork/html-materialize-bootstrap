@@ -26,3 +26,38 @@ main {
 #svg-stuff{
     z-index: 9999;
 }
+
+/* Demonstration purposes for Media Queries, other things get handled through framework */
+@media only screen and (min-width: 0px) and (max-width: 480px)  { 
+    #desktop-visible {
+        display: none;
+    }
+    #tablet-visible {
+        display: none;
+    }
+    #phone-visible {
+        display: block;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 960px)   { 
+    #desktop-visible {
+        display: none;
+    }
+    #tablet-visible {
+        display: block;
+    }
+    #phone-visible {
+        display: none;
+    }
+}
+@media only screen and (min-width: 961px) and (max-width: 2550px) { 
+    #desktop-visible {
+        display: block;
+    }
+    #tablet-visible {
+        display: none;
+    }
+    #phone-visible {
+        display: none;
+    }
+}
