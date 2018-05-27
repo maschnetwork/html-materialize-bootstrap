@@ -1,9 +1,6 @@
-# javascript-playground
+# html-materialize-jquery-bootstrap
 
-Some simple javascript approaches combined in a playground. 
+Bootstrap project with:
 
-- Materialize CSS / Jquery 
-- AJAX Call for CoinmarketCap
-- Webworkers for Fibonacci Numbers
-- Canvas 2D Example
-- SVG HTML with animation
+- Materialize CSS
+- Jquery
